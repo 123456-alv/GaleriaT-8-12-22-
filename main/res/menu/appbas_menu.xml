@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_attch"
+        android:icon="@drawable/ic_baseline_add_a_photo_24"
+        android:title="foto"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/buscar"
+        android:title="Editar"
+        app:actionViewClass="android.widget.SearchView" />
+    <item android:id="@+id/archivos"
+        android:icon="@drawable/ic_baseline_folder_24"
+        android:title="Archivos"
+        app:showAsAction="always"
+         />
+</menu>
